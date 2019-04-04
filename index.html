@@ -17,23 +17,40 @@
 <!--***********************************HEATHER********************************************-->	
 	<header>
 
-	<nav class="navbar navbar-expand-md bgbrand fixed-top mb-5">
 
-	<div class="container-fluid">
-		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav"><span class="navbar-toggler-icon"></span></button>
-		<a class="navbar-brand" href="#">
-		<i class="fas fa-book-open"></i> Mibook</a>
+		<nav class="navbar navbar-expand-md bgbrand fixed-top mb-5">
 
-		<section class="collapse navbar-collapse" id="myTogglerNav">
-	<div class="navbar-nav">
+			<div class="container-fluid">
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav">
+					<span class="fas fa-bars text-light"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+				<i class="fas fa-book-open"></i> Mibook</a>
+
+				<section class="collapse navbar-collapse" id="myTogglerNav">
+					<div class="navbar-nav">
 		
-	<a class="nav-item nav-link mx-3" href="#">Libros</a>
-	<a class="nav-item nav-link mx-3" href="#">Autores</a>
-	<a class="nav-item nav-link mx-3" href="#">Categorias</a>
+					<a class="nav-item nav-link mx-3" href="libros.html">Libros</a>
+					<a class="nav-item nav-link mx-3" href="autores.html">Autores</a>
+					<a class="nav-item nav-link mx-3" href="categorias.html">Categorias</a>
 
-	</div>	
-	</section>
-	</div>
+					</div>	
+					<div class="container float-right">
+<form class="form-inline">
+  <div class="form-group mt-2">
+    <div class="form-group mr-sm-1 ml-sm-5 mb-2">
+    <label for="inputPassword2" class="sr-only">Email</label>
+    <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Email">
+  </div>
+  <div class="form-group mx-sm-1 mb-2">
+    <label for="inputPassword2" class="sr-only">Contraseña</label>
+    <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Contraseña">
+  </div>
+  <button type="submit" class="btn btn-outline-secondary mb-2 btn-sm">Accede</button>
+</form>
+	</div>					
+				</section>
+			</div>
 
 	</nav>
 
@@ -67,15 +84,14 @@
 
 		<div class="row justify-content-center">
 			
-			<div class="card-deck">
-
+				<div class="card-deck">
 					<div class="card my-3">
 					
 						<img class="card-img-top img-fluid" src="guardian.jpg">
 						<div class="card-body">			
 							<h3>El guardián entre el centeno</h3>
 							<h4>J.D. Salinger</h4>
-							<a href="#" class="btn btn-outline-danger">Ver más</a>
+							<a href="guardian.html" class="btn btn-outline-danger">Ver más</a>
 						</div>
 
 					</div>
@@ -87,7 +103,7 @@
 						<div class="card-body">
 							<h3>Baila, baila, baila</h3>
 							<h4>Haruki Murakami</h4>
-							<a href="#" class="btn btn-outline-danger">Ver más</a>
+							<a href="baila.html" class="btn btn-outline-danger">Ver más</a>
 						</div>
         		
         			
@@ -100,12 +116,10 @@
 						<div class="card-body">
 							<h3>Shantaram</h3>
 							<h4>Gregory David Roberts</h4>
-							<a href="#" class="btn btn-outline-danger">Ver más</a>
+							<a href="shant.html" class="btn btn-outline-danger">Ver más</a>
 							</div>
 						</div>
-		
-					</div>
-				
+				</div>
 			</div>
 
 		</div>	
@@ -121,13 +135,13 @@
 
 <!--************************************FOOTER***************************************-->
 	<footer>
-		<ul class="text-light">
-			<li><a href="#"></a>Contáctanos</li>
-			<li><a href="#"></a>Sobre nosotros</li>
-			<li><a href="#"></a>Trabaja con nosotros</li>
-		</ul>
+		<div>
+			<a class="text-light m-3" href="contacto.html">Contáctanos</a>
+			<a class="text-light m-3" href="nosotros.html">Sobre nosotros</a>
+			<a class="text-light m-3" href="trabajo.html">Trabaja con nosotros</a>
+		</div>
 
-		<div class="layout-social mb-3">
+		<div class="layout-social m-3">
 
 			<a class="text-light m-5" href="#"><i class="fab fa-instagram"></i></a>
 			<a class="text-light m-5" href="#"><i class="fab fa-facebook"></i></a>
